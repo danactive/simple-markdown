@@ -54,7 +54,7 @@ Then let's get a basic markdown parser and outputter.
 generic markdown:
 
 ```javascript
-    var mdParser = SimpleMarkdown.defaultBlockParser;
+    var mdParse = SimpleMarkdown.defaultParse;
     var mdOutput = SimpleMarkdown.defaultOutput;
 ```
 
